@@ -1,0 +1,265 @@
+.balance-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.status-bar {
+  background-color: #000080;
+  padding: 0.25rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.status-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ffffff;
+}
+
+.balance-header {
+  background-color: #000080;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.balance-content {
+  padding: 1.5rem 1rem;
+}
+
+.total-balance {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.balance-label {
+  color: #666666;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.balance-amount {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.add-cash-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.balance-details {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.balance-row {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.balance-row:last-child {
+  border-bottom: none;
+}
+
+.balance-info {
+  flex: 1;
+}
+
+.detail-label {
+  display: block;
+  color: #666666;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.detail-amount {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.info-button {
+  background: none;
+  border: none;
+  color: #2196F3;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.withdraw-button {
+  background: none;
+  border: 1px solid #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin: 0 1rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.bonus-banner {
+  background-color: #ffffff;
+  border: 1px solid #4CAF50;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bonus-icon {
+  color: #4CAF50;
+}
+
+.bonus-text {
+  flex: 1;
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+.know-more-button {
+  background: none;
+  border: none;
+  color: #000000;
+  font-weight: 500;
+  padding: 0;
+  margin-left: 0.25rem;
+  cursor: pointer;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #666666;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.navigation-links {
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.nav-item:last-child {
+  border-bottom: none;
+}
+
+.nav-content {
+  flex: 1;
+}
+
+.nav-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.nav-subtitle {
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+/* New styles for editable functionality */
+.editable-balance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.editable-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.balance-input,
+.detail-input {
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: inherit;
+  width: 120px;
+  text-align: center;
+}
+
+.balance-input {
+  font-size: 2rem;
+  font-weight: 500;
+  width: 200px;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: #666666;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-button:hover {
+  color: #000000;
+}
+
+.save-all-button {
+  width: 100%;
+  background-color: #000080;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save-all-button:hover {
+  background-color: #000066;
+}
+
