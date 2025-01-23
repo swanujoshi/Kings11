@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0; /* Grey background for the header */
+  padding: 10px 20px; /* Padding for header */
+  border-bottom: 1px solid #ccc; /* Horizontal line between header and tabs section */
+}
+
+.back-button {
+  background: none;
+  color: white; /* Ensure the back button is white */
+  border: none;
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+.match-info span {
+  color: white; /* Ensure 2h 10m left is white */
+}
+
+/* Tabs Section */
+.tabs-container {
+  background-color: #f0f0f0; /* Grey background for the tabs section */
+  padding: 10px 20px; /* Padding for tabs */
+}
+
+/* Create a horizontal line between header and tabs section */
+.tabs-container::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 10px; /* Add space between the line and tabs */
+}
+
+.tabs button {
+  border: none;
+  background: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: gray;
+}
+
+.active-tab {
+  color: black;
+  font-weight: bold;
+}
+
+/* Sorting Options */
+.sorting-options {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add space between the elements */
+  font-size: 14px;
+  color: black;
+}
+
+.sorting-options .options {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+.sorting-options span {
+  font-size: 14px;
+  color: black;
+}
+
+/* Matches Section Header */
+.matches-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.matches-header h5,
+.view-all-btn {
+  font-size: 16px; /* Same font size for both */
+  font-weight: bold; /* Make both bold */
+}
+
+.view-all-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.view-all-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Matches Section */
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.progress-bar-container {
+  background-color: #ffcccc;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  height: 5px;
+  border-radius: 5px;
+}
+
+.spots-info {
+  font-size: 12px;
+  color: gray;
+}
+.spots-info span {
+  font-weight: bold;
+}
+
+/* Prize Pool and Entry Fee alignment */
+.prize-entry-fee-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Entry Fee Box */
+.entry-fee {
+  background-color: green; /* Green background */
+  color: white; /* White text */
+  padding: 5px 10px; /* Add some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  font-size: 14px; /* Font size */
+  text-align: center; /* Center the text */
+  min-width: 50px; /* Minimum width for consistency */
+}
+
+/* Guaranteed Section */
+.guaranteed-container {
+  display: flex;
+  justify-content: space-between; /* This makes sure the content is spaced out */
+  align-items: center; /* Vertically centers the content */
+  background-color: #f0f0f0; /* Grey background */
+  padding: 10px; /* Adds space inside the container */
+  border-radius: 5px; /* Rounded corners for the container */
+}
+
+.additional-info {
+  font-size: 14px;
+  color: grey; /* Grey color for the additional info */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.guaranteed-text {
+  font-size: 14px;
+  color: grey; /* Grey color for Guaranteed text */
+  display: flex;
+  align-items: center; /* Vertically align the content */
+}
+
+/* Optional: Customize the guaranteed section */
+.card-body .guaranteed-container {
+  padding: 10px 20px; /* Adjust padding if needed */
+}

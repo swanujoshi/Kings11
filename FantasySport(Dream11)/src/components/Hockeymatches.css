@@ -1,0 +1,25 @@
+.hockey-page {
+  position: relative;
+  height: 30vh;
+  padding: 20px;
+  background-image: url("../hockey.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  color: white;
+}
+
+.hockey-page h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.upcoming-matches-section-hockey h2 {
+  color: inherit;
+  color: #333;
+  font-size: 20px;
+}

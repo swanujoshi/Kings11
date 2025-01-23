@@ -1,0 +1,136 @@
+.football-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+.tournament-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tournament-name span {
+  font-weight: normal;
+  color: #888;
+}
+
+.teams-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.team img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.match-time {
+  color: red;
+  font-weight: bold;
+  text-align: left;
+}
+
+.match-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.mega-container {
+  display: flex;
+  align-items: center;
+}
+
+.match-type {
+  background-color: #fff;
+  color: #46a737;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  display: inline-block;
+}
+
+.match-prize {
+  color: #313233;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.team-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.team-count-text {
+  color: #888;
+}
+
+.team-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.team-count-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 1px;
+}
+.football-page .my-matches-section {
+  position: relative;
+  height: 30vh;
+  padding: 20px;
+  background-image: url("../football.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  color: white;
+}
+.my-matches-section h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+.upcoming-matches-section {
+  padding: 20px;
+}
+
+.teamCount {
+  display: flex; /* Allows horizontal arrangement */
+  align-items: center; /* Vertically centers the text */
+}
+
+.teamCount span:nth-child(1) {
+  /* Target first span for team count */
+  font-weight: bold; /* Make the count bolder */
+  color: #333; /* Adjust color as needed */
+  margin-right: 5px; /* Add margin for spacing */
+}
+
+.teamCount span:nth-child(2) {
+  /* Target second span for contest count */
+  font-weight: bold; /* Make the count bolder */
+  color: #333; /* Adjust color as needed */
+}

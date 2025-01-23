@@ -1,0 +1,59 @@
+.my-matches {
+  position: relative;
+  height: 30vh;
+  padding: 20px;
+  background-image: url("../ball.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  color: white;
+}
+.team-name {
+  color: inherit;
+  color: #000;
+}
+.my-matches h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+.upcoming-matches-text h2 {
+  color: inherit;
+  color: #333;
+  font-size: 20px;
+}
+
+.tournament-name {
+  display: flex;
+  justify-content: space-between;
+}
+.tournament-name span {
+  font-weight: normal;
+  color: #888;
+}
+.notification-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.match-type-container {
+  display: flex;
+  align-items: center; /* Align 'MEGA' and prize vertically */
+}
+
+.team-count {
+  font-size: 12px;
+  color: #888; /* Color for "Team" and "Contest" */
+  margin-top: 5px;
+
+  display: flex; /* Use flexbox for better alignment */
+  align-items: center; /* Vertically center the text */
+}
+
+.team-count span {
+  font-weight: bold; /* Make the count '1' darker */
+  color: #333; /* Adjust the dark color as needed */
+}
